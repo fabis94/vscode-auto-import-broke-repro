@@ -4,7 +4,10 @@
     "moduleResolution": "node",
     "target": "esnext",
     "baseUrl": ".",
-    "esModuleInterop": false
+    "esModuleInterop": false,
+    "paths": {
+      "@src/*": ["./src/*"]
+    }
   },
   "exclude": ["node_modules"],
   "include": ["src/**/*"]

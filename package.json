@@ -2,5 +2,11 @@
   "name": "vscode-import-repo",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  },
+  "_moduleAliases": {
+    "@src": "./src",
+  }
 }
